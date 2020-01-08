@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="false" generated="20200107 13:19:31.764" generator="Robot 3.1.2 (Python 2.7.16 on darwin)">
+<suite source="/Users/suman/PycharmProjects/Test/stag1mg.robot" id="s1" name="Stag1Mg">
+<test id="s1-t1" name="Navigate to Web">
+<kw name="Launch browser and open 1mg page">
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+<arg>${Browser}</arg>
+</arguments>
+<msg timestamp="20200107 13:19:32.292" level="INFO">Opening browser 'chrome' to base url 'https://stag.1mg.com/'.</msg>
+<status status="PASS" endtime="20200107 13:19:54.867" starttime="20200107 13:19:32.291"></status>
+</kw>
+<kw name="Set Selenium Implicit Wait" library="Selenium2Library">
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<arguments>
+<arg>10s</arg>
+</arguments>
+<status status="PASS" endtime="20200107 13:19:54.875" starttime="20200107 13:19:54.867"></status>
+</kw>
+<kw name="Set Selenium Speed" library="Selenium2Library">
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<status status="PASS" endtime="20200107 13:19:54.876" starttime="20200107 13:19:54.876"></status>
+</kw>
+<kw name="Maximize Browser Window" library="Selenium2Library">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" endtime="20200107 13:19:56.255" starttime="20200107 13:19:54.877"></status>
+</kw>
+<status status="PASS" endtime="20200107 13:19:56.256" starttime="20200107 13:19:32.291"></status>
+</kw>
+<kw name="Enter user name and password">
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${cancel_popup}</arg>
+</arguments>
+<msg timestamp="20200107 13:19:56.258" level="INFO">Clicking element '//div[text()='Cancel']'.</msg>
+<status status="PASS" endtime="20200107 13:19:58.427" starttime="20200107 13:19:56.257"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${login}</arg>
+</arguments>
+<msg timestamp="20200107 13:19:58.428" level="INFO">Clicking element '//span[text()='Login']'.</msg>
+<status status="PASS" endtime="20200107 13:20:00.695" starttime="20200107 13:19:58.428"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${user}</arg>
+</arguments>
+<msg timestamp="20200107 13:20:00.696" level="INFO">Clicking element '//input[@class='style__input___3NmkT']'.</msg>
+<status status="PASS" endtime="20200107 13:20:02.781" starttime="20200107 13:20:00.695"></status>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${user}</arg>
+<arg>9992211223</arg>
+</arguments>
+<msg timestamp="20200107 13:20:02.783" level="INFO">Typing text '9992211223' into text field '//input[@class='style__input___3NmkT']'.</msg>
+<status status="PASS" endtime="20200107 13:20:05.992" starttime="20200107 13:20:02.782"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${send_otp}</arg>
+</arguments>
+<msg timestamp="20200107 13:20:05.993" level="INFO">Clicking element '//span[text()='SEND OTP']'.</msg>
+<status status="PASS" endtime="20200107 13:20:08.109" starttime="20200107 13:20:05.993"></status>
+</kw>
+<kw name="Wait Until Element Is Enabled" library="Selenium2Library">
+<doc>Waits until the element ``locator`` is enabled.</doc>
+<arguments>
+<arg>${otp}</arg>
+</arguments>
+<msg timestamp="20200107 13:20:09.152" level="INFO">Suppressing StaleElementReferenceException from Selenium.</msg>
+<status status="PASS" endtime="20200107 13:20:12.404" starttime="20200107 13:20:08.109"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${otp}</arg>
+</arguments>
+<msg timestamp="20200107 13:20:12.405" level="INFO">Clicking element '//div[@class='style__input-wrapper___3kd0w']//input'.</msg>
+<status status="PASS" endtime="20200107 13:20:14.488" starttime="20200107 13:20:12.404"></status>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${otp}</arg>
+<arg>123456</arg>
+</arguments>
+<msg timestamp="20200107 13:20:14.490" level="INFO">Typing text '123456' into text field '//div[@class='style__input-wrapper___3kd0w']//input'.</msg>
+<status status="PASS" endtime="20200107 13:20:17.639" starttime="20200107 13:20:14.489"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${done_btn}</arg>
+</arguments>
+<msg timestamp="20200107 13:20:17.640" level="INFO">Clicking element '//span[text()='DONE']'.</msg>
+<status status="PASS" endtime="20200107 13:20:19.748" starttime="20200107 13:20:17.639"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2</arg>
+</arguments>
+<msg timestamp="20200107 13:20:21.752" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20200107 13:20:21.752" starttime="20200107 13:20:19.749"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${search}</arg>
+</arguments>
+<msg timestamp="20200107 13:20:21.752" level="INFO">Clicking element '//input[@id='srchBarShwInfo']'.</msg>
+<status status="PASS" endtime="20200107 13:20:30.133" starttime="20200107 13:20:21.752"></status>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>${search}</arg>
+<arg>telma</arg>
+</arguments>
+<msg timestamp="20200107 13:20:30.135" level="INFO">Typing text 'telma' into text field '//input[@id='srchBarShwInfo']'.</msg>
+<status status="PASS" endtime="20200107 13:20:33.272" starttime="20200107 13:20:30.134"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1</arg>
+</arguments>
+<msg timestamp="20200107 13:20:34.274" level="INFO">Slept 1 second</msg>
+<status status="PASS" endtime="20200107 13:20:34.275" starttime="20200107 13:20:33.273"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${dropdown}</arg>
+</arguments>
+<msg timestamp="20200107 13:20:34.276" level="INFO">Clicking element '//div[text()='-AM H 40 Tablet 1 Chocolate and 1 Strawberry']'.</msg>
+<status status="PASS" endtime="20200107 13:20:40.349" starttime="20200107 13:20:34.275"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${add_to_cart}</arg>
+</arguments>
+<msg timestamp="20200107 13:20:40.350" level="INFO">Clicking element '//div[text()='Add To Cart']'.</msg>
+<status status="PASS" endtime="20200107 13:20:42.505" starttime="20200107 13:20:40.350"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${cart}</arg>
+</arguments>
+<msg timestamp="20200107 13:20:42.505" level="INFO">Clicking element '//div[@class='CartCounter__cart-counter-list___1a7tL']'.</msg>
+<status status="PASS" endtime="20200107 13:21:05.383" starttime="20200107 13:20:42.505"></status>
+</kw>
+<kw name="Scroll Element Into View" library="Selenium2Library">
+<doc>Scrolls the element identified by ``locator`` into view.</doc>
+<arguments>
+<arg>${checkout}</arg>
+</arguments>
+<status status="PASS" endtime="20200107 13:21:07.938" starttime="20200107 13:21:05.384"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>${checkout}</arg>
+</arguments>
+<msg timestamp="20200107 13:21:07.939" level="INFO">Clicking element '//span[text()='CHECKOUT']'.</msg>
+<status status="PASS" endtime="20200107 13:21:10.062" starttime="20200107 13:21:07.938"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2</arg>
+</arguments>
+<msg timestamp="20200107 13:21:12.066" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20200107 13:21:12.066" starttime="20200107 13:21:10.063"></status>
+</kw>
+<kw name="Wait Until Element Is Enabled" library="Selenium2Library">
+<doc>Waits until the element ``locator`` is enabled.</doc>
+<arguments>
+<arg>${add_image}</arg>
+</arguments>
+<status status="PASS" endtime="20200107 13:21:15.128" starttime="20200107 13:21:12.066"></status>
+</kw>
+<kw name="Choose File" library="Selenium2Library">
+<doc>Inputs the ``file_path`` into the file input field ``locator``.</doc>
+<arguments>
+<arg>${add_image}</arg>
+<arg>/Users/suman/PycharmProjects/Test/selenium-screenshot-1.png</arg>
+</arguments>
+<msg timestamp="20200107 13:21:15.129" level="INFO">Sending /Users/suman/PycharmProjects/Test/selenium-screenshot-1.png to browser.</msg>
+<status status="PASS" endtime="20200107 13:21:17.204" starttime="20200107 13:21:15.128"></status>
+</kw>
+<status status="PASS" endtime="20200107 13:21:17.205" starttime="20200107 13:19:56.256"></status>
+</kw>
+<status status="PASS" endtime="20200107 13:21:17.205" critical="yes" starttime="20200107 13:19:32.290"></status>
+</test>
+<status status="PASS" endtime="20200107 13:21:17.207" starttime="20200107 13:19:31.768"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="1">Critical Tests</stat>
+<stat fail="0" pass="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Stag1Mg" pass="1">Stag1Mg</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

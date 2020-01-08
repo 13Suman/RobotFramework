@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="97b7ac4b-9b4a-4b89-a62f-1e334cc2c4b0" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1VEbfT24y8dOJehpvNxbE3Y3kHz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="run.code.analysis.last.selected.profile" value="aDefault" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+  </component>
+  <component name="PyDebuggerOptionsProvider">
+    <option name="mySupportGeventDebugging" value="true" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="97b7ac4b-9b4a-4b89-a62f-1e334cc2c4b0" name="Default Changelist" comment="" />
+      <created>1576821304475</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576821304475</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="320" y="115" key="#Scopes" timestamp="1577984365616">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="115" key="#Scopes/0.0.1440.900@0.0.1440.900" timestamp="1577984365616" />
+    <state x="184" y="125" width="1071" height="696" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578055946489">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state x="184" y="112" width="1071" height="696" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1577985930880" />
+    <state x="184" y="125" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.821@0.23.1440.821" timestamp="1578055946489" />
+    <state x="479" y="328" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1577440164045">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="479" y="328" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1440.900@0.0.1440.900" timestamp="1577440164045" />
+    <state x="308" y="192" key="IDE.errors.dialog" timestamp="1577985578501">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="308" y="192" key="IDE.errors.dialog/0.0.1440.900@0.0.1440.900" timestamp="1577985578501" />
+    <state x="229" y="89" key="SettingsEditor" timestamp="1578299477526">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="229" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1578299477526" />
+    <state x="229" y="104" key="SettingsEditor/0.23.1440.816@0.23.1440.816" timestamp="1578054924757" />
+    <state x="229" y="104" key="SettingsEditor/0.23.1440.821@0.23.1440.821" timestamp="1578056024607" />
+    <state x="399" y="278" key="com.intellij.ide.util.TipDialog" timestamp="1578303478061">
+      <screen x="0" y="23" width="1440" height="816" />
+    </state>
+    <state x="399" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1577088281051" />
+    <state x="399" y="277" key="com.intellij.ide.util.TipDialog/0.23.1440.811@0.23.1440.811" timestamp="1578028761143" />
+    <state x="399" y="278" key="com.intellij.ide.util.TipDialog/0.23.1440.816@0.23.1440.816" timestamp="1578303478061" />
+    <state x="399" y="280" key="com.intellij.ide.util.TipDialog/0.23.1440.821@0.23.1440.821" timestamp="1578299423981" />
+    <state x="385" y="168" width="670" height="676" key="search.everywhere.popup" timestamp="1578055973639">
+      <screen x="0" y="23" width="1440" height="821" />
+    </state>
+    <state x="385" y="168" width="670" height="676" key="search.everywhere.popup/0.23.1440.821@0.23.1440.821" timestamp="1578055973639" />
+  </component>
+</project>
